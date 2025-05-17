@@ -1,0 +1,29 @@
+{
+  "name": "cse-341",
+  "version": "1.0.0",
+  "description": "- Installed Node.js and npm\r - Initialized project with `npm init`\r - Created basic `server.js` with an Express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desivar/cse-341.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/desivar/cse-341/issues"
+  },
+  "homepage": "https://github.com/desivar/cse-341#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
